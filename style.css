@@ -17,6 +17,9 @@ body{
     padding: 1em;
     margin-top: -1.5em;
     margin-bottom: 0px;
+    margin: auto;
+    
+    
 }
 header{
     padding: 20px;
@@ -25,11 +28,13 @@ header{
     margin-left: 0px;
     margin-top: 0px;
     background-color: rgb(0, 0, 0);
+    min-width: 400px;
     
 }
 a{
     color: white;
     text-decoration: none;
+    
 }
 
 nav{
@@ -69,7 +74,10 @@ main{
     padding-left: 4em;
     max-width: 17em;
     padding-top: 9em;
+    
 }
+
+
 main  h3{
     width: 8em;
     font-size: 1.2em;
@@ -139,4 +147,9 @@ div{
 .imagem4{
     width: 9em;
     transform: rotate(-10deg);
+}
+
+#imagenscoca{
+    min-height: 400px;
+    max-width: 100%;
 }
